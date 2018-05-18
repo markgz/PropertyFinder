@@ -17,7 +17,7 @@ export default class App extends Component<{}> {
   render() {
     return (
       <NavigatorIOS
-        sytle={styles.container}
+        style={styles.container}
         initialRoute={{
           title: 'Property Finder',
           component: SearchPage,
@@ -25,7 +25,6 @@ export default class App extends Component<{}> {
     );
   }
 }
-
 
 const styles = StyleSheet.create({
   container: {
